@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins:wght@400;600&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: teal;
+}
+
+header {
+  background-image: url(../image/pexels-vlada-karpovich-4050464\ 1.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 30px;
+}
+
+.header__nav {
+  padding: 20px 0;
+}
+
+.header__list {
+  display: flex;
+  gap: 40px;
+}
+
+.header__list li a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.98);
+}
+
+.header__main-title {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5.5rem;
+  line-height: 166.9%;
+  color: #000000;
+}
+
+.header__main-description {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 166.9%;
+  letter-spacing: 0.09em;
+  color: #272525;
+  margin-bottom: 75px;
+}
+
+.header__main-btns {
+  display: flex;
+  gap: 50px;
+}
+
+.myBtn {
+  padding: 17px 30px;
+  cursor: pointer;
+}
+
+.readMoreBtn {
+  background: linear-gradient(90deg, #d824ff 3.34%, #73c6f0 99.82%);
+  border: none;
+}
+
+.readMoreBtn a {
+  font-family: "Nunito Sans", sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.6rem;
+}
+
+.contactBtn {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border: none;
+}
+
+.contactBtn a {
+  color: #000;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  
+}
