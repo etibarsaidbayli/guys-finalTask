@@ -81,6 +81,7 @@ header {
 .readMoreBtn {
   background: linear-gradient(90deg, #d824ff 3.34%, #73c6f0 99.82%);
   border: none;
+  transition: 0.3s all;
 }
 
 .readMoreBtn a {
@@ -90,6 +91,16 @@ header {
   font-weight: 500;
   font-size: 2rem;
   line-height: 2.6rem;
+  transition: 0.3s all;
+}
+
+.readMoreBtn:hover {
+  background: #fff;
+  border: 1px solid #d824ff;
+}
+
+.readMoreBtn:hover a {
+  color: #272525;
 }
 
 .contactBtn {
@@ -99,6 +110,11 @@ header {
   align-items: center;
   gap: 7px;
   border: none;
+  transition: 0.3s all;
+}
+
+.contactBtn:hover {
+  border: 1px solid #d824ff;
 }
 
 .contactBtn a {
@@ -106,5 +122,70 @@ header {
   font-weight: 500;
   font-size: 2rem;
   line-height: 2.6rem;
-  
+}
+
+.section__title {
+  text-align: center;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.1rem;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.about__section-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 176.5%;
+  color: #272525;
+}
+
+.about__section-info {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 35px;
+}
+
+.infoes {
+  background: red;
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.info {
+  width: 45%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.info__title {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+
+  color: #9b4edb;
+}
+
+.info strong {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.about__education {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
 }
