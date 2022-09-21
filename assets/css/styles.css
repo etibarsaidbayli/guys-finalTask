@@ -9,11 +9,13 @@
 
 /*===== Colores =====*/
 :root {
-  --first-color: #8f8fbd;
+  --first-color: #FCFCFE;
   --white-color: #fafaff;
   --dark-color: #272a2c;
   --text-color: #9d4397;
 }
+
+
 
 /*===== Fuente y tipografia =====*/
 :root {
@@ -62,6 +64,8 @@ body {
   color: var(--text-color);
   line-height: 1.6;
 }
+
+
 h1,
 h2,
 p {
@@ -103,6 +107,7 @@ img {
   margin: auto;
   top: 2rem;
   background-color: var(--first-color);
+  
 }
 
 /*===== LAYOUT =====*/
@@ -122,6 +127,7 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--first-color);
+  
 }
 
 /*===== NAV =====*/
@@ -142,6 +148,7 @@ img {
     background-color: rgba(255, 255, 255, 0.3);
     transition: 0.5s;
     backdrop-filter: blur(10px);
+  
   }
 }
 .nav__item {
@@ -150,15 +157,17 @@ img {
 .nav__link {
   position: relative;
   color: var(--dark-color);
+  color:var(--text-color) !important
 }
 .nav__link:hover {
-  color: var(--first-color);
+  color: var(--dark-color);
 }
 .nav__logo {
   color: var(--white-color);
+  color:var(--text-color)
 }
 .nav__toggle {
-  color: var(--white-color);
+  color:#000;
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -272,7 +281,7 @@ img {
 }
 .skills__name:hover {
   background-color: var(--first-color);
-  color: var(--white-color);
+  color: var(--dark-color);
 }
 .skills__img img {
   border-radius: 0.5rem;
@@ -423,9 +432,12 @@ img {
   }
   .nav__link:hover {
     color: var(--white-color);
+    
+
   }
   .active::after {
     background-color: var(--white-color);
+    background: red;
   }
 
   .home__container {
@@ -494,3 +506,10 @@ img {
     right: 24%;
   }
 }
+
+.home__title {
+ color:var(--text-color) !important
+}
+
+
+
