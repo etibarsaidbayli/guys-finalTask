@@ -1,166 +1,380 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script
-      src="https://kit.fontawesome.com/2e18f2b45c.js"
-      crossorigin="anonymous"
-    ></script>
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- ===== BOX ICONS ===== -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
       rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/bg.png" />
+
+    <title>Etibar Seyidbeyli</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <nav class="header__nav">
-          <ul class="header__list">
-            <li>
-              <a href="#">Home</a>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Etibar Seyidbeyli</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
             </li>
-            <li>
-              <a href="#">About</a>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
             </li>
-            <li>
-              <a href="#">Services</a>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
             </li>
-            <li>
-              <a href="#">Portfolio</a>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portfolio</a>
             </li>
-            <li>
-              <a href="#">Contact</a>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
             </li>
           </ul>
-        </nav>
-        <div class="col-xl-6">
-          <div class="header_main-content">
-            <h1 class="header__main-title">I'M JOHN ROWLING WEB DEVELOPER</h1>
-            <!-- <p class="header__main-p">Web Developer</p> -->
-            <p class="header__main-description">
-              You will begin to realise why this exercise is called the Dickens
-              Pattern with reference to the ghost showing Scrooge some different
-              futures.
-            </p>
-          </div>
-          <div class="header__main-btns">
-            <button class="myBtn readMoreBtn">
-              <a href="#">Read More</a>
-            </button>
-            <button class="myBtn contactBtn">
-              <i class="fa-solid fa-user"></i>
-              <a href="#">Contact me</a>
-            </button>
-          </div>
         </div>
-      </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
     </header>
-    <main>
-      <section>
-        <div class="container">
-          <h2 class="section__title">ABOUT ME</h2>
-          <div class="row">
-            <div class="col-xl-7">
-              <div class="about__section-img">
-                <img
-                  src="assets/image/serious-looking-male-handsome-guy-with-blond-hair-wearing-grey-hoodie-people-emotion-concept-watching-confident-isolated-grey-wall 1.png"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="col-xl-5">
-              <div class="about__section-content">
-                <p class="about__section-p">
-                  For instance, whenever I go back to the guest house during the
-                  morning to copy out the contract, these gentlemen are always
-                  still sitting there eating their breakfasts. I ought to just
-                  try that with my boss; I'd get kicked out on the spot. But who
-                  knows, maybe that would be the best thing for me. He'd fall
-                  right off his desk! And it's a funny sort of business to be
-                  sitting up there at your desk, talking down at your
-                  subordinates.
-                </p>
-                <div class="about__section-info">
-                 
-                    <div class="infoes">
-                      <div class="info">
-                        <h5 class="info__title">
-                          Name
-                        </h5>
-                        <strong>Etibar Seyidbeyli</strong>
-                      </div>
-                      <div class="info">
-                        <h5 class="info__title">
-                          Phone
-                        </h5>
-                        <strong>+994506661009</strong>
-                      </div>
-                      <div class="info">
-                        <h5 class="info__title">
-                          Country
-                        </h5>
-                        <strong>Azerbaijan</strong>
-                      </div>
-                      
-                      <div class="info">
-                        <h5 class="info__title">
-                          Email
-                        </h5>
-                        <strong>etibarseibdekov@gmail.com</strong>
-                      </div>
-                      
-                      
-                    </div>
-                  
-            
-                  
-                  <div class="about__education">
-                    <div class="info">
-                      <h5 class="info__title">
-                        Education
-                      </h5>
-                      <strong>ATL Academy</strong>
-                      <strong>Natinal Aviation Academy</strong>
-                    </div>
-                    <div class="about__socials">
-                      <ul>
-                        <li>
-                          <a href="#">
-                            <i class="fa-brands fa-facebook-f"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fa-brands fa-square-github"></i>
-                          </a>
-                        </li> 
-                        <li>
-                          <a href="#">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+          <h1 class="home__title"><span>SA</span><br />LAM.</h1>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-link"
+              ><i class="bx bx-up-arrow-alt"></i>Scroll down</a
+            >
+          </div>
+
+          <!-- <img src="assets/img/bg.pn" alt="" class="home__img" /> sheklim olmalidi -->
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div>
+            <!-- <img src="assets/img/bg.png" alt="" class="about__img" />  balaca sheklim-->
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I'am Etibar Seyidbeyli</h2>
+            <span class="about__profession">Front End Developer</span>
+            <p class="about__text">
+              i am professional web developer with 1 + year experience in web
+              development.I'm constantly developing and learning new
+              technologies in IT.
+            </p>
+
+            <div class="about__social">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/etibar-saidbayli-960231232/"
+                class="about__social-icon"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://github.com/etibarsaidbayli"
+                class="about__social-icon"
+                ><i class="bx bxl-github"></i
+              ></a>
             </div>
           </div>
         </div>
       </section>
-    </main>
-    <footer></footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="assets/app/index.js"></script>
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div class="skills__box">
+            <h3 class="skills__subtitle">Development</h3>
+            <span class="skills__name">Html 5</span>
+            <span class="skills__name">Css 3/Scss</span>
+            <span class="skills__name">Boostrap 5</span>
+            <span class="skills__name">Git, Github</span>
+            <span class="skills__name">JavaScript</span>
+            <span class="skills__name">React JS</span>
+            <span class="skills__name">Redux/Redux Toolkit</span>
+            <span class="skills__name">Next JS</span>
+            <span class="skills__name">Tailwind CSS</span>
+          </div>
+
+          <div class="skills__img">
+            <img src="assets/img/skill.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!--===== PORTFOLIO =====-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+
+        <div class="portfolio__container bd-grid">
+          <div class="portfolio__img">
+            <img src="assets/img/game horza 5.jpg" alt="game_horzo" />
+
+            <div class="portfolio__link">
+              <a
+                target="_blank"
+                href="https://game-store-ecommerce.vercel.app/"
+                class="portfolio__link-name"
+                >Game Store</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="./assets/img/taskOnePIc.png" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                target="_blank"
+                href="https://etibarsaidbayli.github.io/guys-taskOne/"
+                class="portfolio__link-name"
+                >Guys/Landing Page</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img
+              src="https://play-lh.googleusercontent.com/cweCpoG0q7Z4qVBdozGoM1DFhp2U_kHmmbo2F1_qgF6BP-hCRai6uB9U1j28ZhaaYXU"
+              alt=""
+            />
+
+            <div class="portfolio__link">
+              <a
+                target="_blank"
+                href="https://etibarsaidbayli.github.io/weather-app/"
+                class="portfolio__link-name"
+                >Weather App</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/todo.png" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                target="_blank"
+                href="https://todolist-app-reactjs.vercel.app/"
+                class="portfolio__link-name"
+                >Todo List</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img
+              src="data:image/png;base64,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"
+              alt=""
+            />
+
+            <div class="portfolio__link">
+              <a
+                target="_blank"
+                href="https://etibarsaidbayli.github.io/guys-taskSecond/"
+                class="portfolio__link-name"
+                >guys/Digicell/ Landing Page</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/snap.jpg" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                href="https://snap-shot-app.vercel.app/"
+                class="portfolio__link-name"
+                >Snap Shot</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/nordic.jpg" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                target="_blank"
+                href="https://nordic-store-reactjs.vercel.app/"
+                class="portfolio__link-name"
+                >Nordic Store</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/movies.png" alt="" />
+
+            <div class="portfolio__link">
+              <a
+                target="_blank"
+                href="https://site-movies-react.netlify.app/"
+                class="portfolio__link-name"
+                >Movies Site</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt=""
+            />
+            <div class="portfolio__link">
+              <a
+                target="_blank"
+                href="https://countries-react-app.vercel.app/"
+                class="portfolio__link-name"
+                >Countries App</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB-sZ931F6xWnX019jb1_gKdz72cTUPcU5bA&usqp=CAU"
+              alt=""
+            />
+            <div class="portfolio__link">
+              <a
+                target="_blank"
+                href="https://etibarsaidbayli.github.io/analog-clock/"
+                class="portfolio__link-name"
+                >Countries App</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img
+              src="https://lh3.googleusercontent.com/Eqky-nok6uaZbukLwf7xsq0HIsBp0z7YI0G1UwOxcz0HjNkH4UKn9TJGg14YpQXY_TyaNLYvM-MI7MfLzq7g3XgrRQ=w640-h400-e365-rj-sc0x00ffffff"
+              alt=""
+            />
+            <div class="portfolio__link">
+              <a
+                target="_blank"
+                href="https://etibarsaidbayli.github.io/github-search-user/"
+                class="portfolio__link-name"
+                >Github search user</a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img
+              src="https://www.pcgamebenchmark.com/img/game/console-simulator/console-simulator-system-requirements.jpg"
+              alt=""
+            />
+            <div class="portfolio__link">
+              <a
+                target="_blank"
+                href="https://console-cmd-simulator.vercel.app/"
+                >Console Simulator</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <div class="contact__info">
+            <h3 class="contact__subtitle">EMAIL</h3>
+            <span class="contact__text">etibarseidbekov@gmail.com </span>
+
+            <h3 class="contact__subtitle">PHONE</h3>
+            <span class="contact__text">+99450 666 10 09</span>
+
+            <h3 class="contact__subtitle">ADRESS</h3>
+            <span class="contact__text">Baku, Azerbaycan</span>
+          </div>
+
+          <form action="" class="contact__form">
+            <div class="contact__inputs">
+              <input type="text" placeholder="Name" class="contact__input" />
+              <input type="mail" placeholder="Email" class="contact__input" />
+            </div>
+
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+
+            <input type="submit" value="Send" class="contact__button" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+      <div class="footer__container bd-grid">
+        <div class="footer__data">
+          <h2 class="footer__title">Etibar Seyidbeyli</h2>
+          <p class="footer__text">
+            I'm Etibar Seyidbeyli and this is my personal website
+          </p>
+        </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">EXPLORE</h2>
+          <ul>
+            <li><a href="#home" class="footer__link">Home</a></li>
+            <li><a href="#about" class="footer__link">About</a></li>
+            <li><a href="#skills" class="footer__link">Skills</a></li>
+            <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+            <li><a href="#Contact" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">FOLLOW</h2>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/etibarsaidbayli/"
+            class="footer__social"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/etibar-saidbayli-960231232/"
+            class="footer__social"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://github.com/etibarsaidbayli"
+            class="footer__social"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
